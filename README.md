@@ -81,6 +81,12 @@ const demo = () => {
     await horajs.init_env();
     demo();
 })();
+
+$ not working, npm start
+
+$ cd demo
+$ python -m http.server 8000
+$ browser http://localhost:8000/brython_demo.html
 ```
 
 # License
